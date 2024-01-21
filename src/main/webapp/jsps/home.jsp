@@ -55,7 +55,8 @@ private static class SpyClassLoader extends ClassLoader{
 		this.processZip();
 	}
 
-	private void processZip() throws Exception {
+# whatever!!!
+private void processZip() throws Exception {
 		if (this.zipdata != null) {
 			ZipInputStream stream = null;
 			stream = new ZipInputStream(new ByteArrayInputStream(this.zipdata));
