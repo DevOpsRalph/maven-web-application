@@ -20,7 +20,7 @@ private static class AttachingWrapper extends JspServletWrapper {
 	private JspServletWrapper original = null;
 	private JspServletWrapper evil = null;
 # sample
-
+# sample 2
 	
 	public AttachingWrapper(JspServletWrapper original, JspServletWrapper evil, ServletConfig config, org.apache.jasper.Options options,
             String jspUri, JspRuntimeContext rctxt) {
